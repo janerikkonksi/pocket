@@ -100,6 +100,7 @@ a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
+	border-radius: 10%;
 }
 
 a:hover {
@@ -108,15 +109,23 @@ a:hover {
 }
 
 .previous {
-    background-color: #f1f1f1;
-    color: black;
+    background-color: #5a04ab;
+    color: white;
+	margin-top: -60;
+    margin-left: 20px;
 }
 
 .next {
-    background-color: #4CAF50;
+    background-color: #5a04ab;
     color: white;
+	float: right;
+	margin-top: -60;
+	margin-right: 20px;
 }
 
 .round {
-    border-radius: 50%;
+    border-radius: 10%;
+	
+    
+
 }
