@@ -1,5 +1,7 @@
 body{
 	font-family: "Comic Sans MS";
+  text-align: center;
+  display:block
 }
 
 button{
@@ -23,10 +25,9 @@ h2{
   	margin: auto;
   	text-align: center;
   	vertical-align: middle;
-	line-height: 7px;
+	  line-height: 35px;
     cursor: pointer;
     display:block
-
 
 }
 
@@ -47,7 +48,17 @@ h2{
 	background-color: #9642f7
 }
 
+#learn_more{
+  text-decoration:none;
+}
+#learn_more:hover{
+  text-decoration: underline;
+}
+
  .description{
  	font-size: 0.8em;
  	color: #cbced3;
+  text-align: center;
+  display:block
+
  }
