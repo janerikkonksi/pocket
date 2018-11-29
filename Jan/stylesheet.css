@@ -16,6 +16,9 @@ width: 355px;
 	color: grey;
 
 }
+#center {
+    
+}
 
 a.button5{
 	padding:0.46em 1.6em;
@@ -56,7 +59,8 @@ a.button5:hover{
  background-size: cover;
  display: block;
  -webkit-border-radius: 150px;
- margin-left: 35px;
+
+ 
 }
 
 * {
