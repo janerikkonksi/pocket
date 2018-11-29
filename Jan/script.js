@@ -4,4 +4,3 @@ function myFunction(elmnt,clr) {
 }
 
 window.onclick = myFunction;
-
