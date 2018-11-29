@@ -56,6 +56,7 @@ li {
   background-color: #e0e0ff;
   opacity: 1;
   transition:  all 0.4s;
+  cursor: pointer;
 }
 
 li:hover {

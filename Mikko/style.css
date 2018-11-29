@@ -1,18 +1,19 @@
 body{
-	font-family: "Comic Sans MS";
+	font-family: "Arial";
   text-align: center;
   display:block
 }
 
 button{
-	font-family: "Comic Sans MS";
+	font-family: "Arial";
+  font-size: 1.2em;
 }
 h1{
-	font-size: 1.6em;
+	font-size: 1.8em;
 }
 
 h2{
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 .button{
@@ -25,7 +26,7 @@ h2{
   	margin: auto;
   	text-align: center;
   	vertical-align: middle;
-	  line-height: 35px;
+	  line-height: 40px;
     cursor: pointer;
     display:block
 
@@ -42,7 +43,7 @@ h2{
 }
  #no_fill{
  	color: #430F7F;
- 	background-color: white;
+ 	background-color: #cccccc;;
  }
 #no_fill:hover{
 	background-color: #9642f7
@@ -56,8 +57,8 @@ h2{
 }
 
  .description{
- 	font-size: 0.8em;
- 	color: #cbced3;
+ 	font-size: 0.9em;
+ 	color: gray;
   text-align: center;
   display:block
 
