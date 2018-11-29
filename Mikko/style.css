@@ -19,7 +19,9 @@ h2{
 .button{
   	width: 250px;
   	height: 40px;
+    color: white;
   	border: 2px solid #430F7F;
+    background-color:#430F7F;
   	border-radius: 14px;
   	padding-bottom: 0px;
   	padding-top: 0px;
@@ -33,20 +35,9 @@ h2{
 }
 
 
- #fill{
- 	color: white;
- 	background-color:#430F7F;
- }
-
-#fill:hover {
+.button:hover {
     background-color: #731dd6;
-}
- #no_fill{
- 	color: #430F7F;
- 	background-color: #cccccc;;
- }
-#no_fill:hover{
-	background-color: #9642f7
+    border-color:#7380b6;
 }
 
 #learn_more{
@@ -61,5 +52,12 @@ h2{
  	color: gray;
   text-align: center;
   display:block
-
  }
+
+.picture{
+  text-align: center;
+  vertical-align: middle;
+  object-fit: scale-down;
+  width: 250px;
+
+}
