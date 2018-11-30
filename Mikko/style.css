@@ -4,6 +4,10 @@ body{
   display:block
 }
 
+.body{
+  background-color:#cccccc;
+}
+
 button{
 	font-family: "Arial";
   font-size: 1.2em;
@@ -14,6 +18,10 @@ h1{
 
 h2{
 	font-size: 1.4em;
+}
+
+a{
+  text-decoration:none;
 }
 
 .button{
@@ -31,7 +39,6 @@ h2{
 	  line-height: 40px;
     cursor: pointer;
     display:block
-
 }
 
 

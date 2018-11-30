@@ -34,6 +34,9 @@ a.button5{
 
 #suurenda {
 	padding:0.6em 1.6em;
+	margin-left: 5px;
+	font-size:20px;
+	width: 364px;
 	
 }
 
@@ -51,8 +54,15 @@ a.button5:hover{
 }
 .box p{
     margin: 0;
+    font-size:1.5em;
+    margin-top: -10px;
+    width:305px;
 }
-#img1{
+
+.box2{
+	width: 255px;
+}
+.img{
  width: 250px;
  height: 250px;
  background-size: cover;
@@ -68,9 +78,10 @@ a.button5:hover{
 
 .column {
     float: left;
-    
-    padding: 5px;
-	
+    padding: 5px;	
+}
+.column_img{
+	width:80px
 }
 
 /* Clearfix (clear floats) */
@@ -78,6 +89,8 @@ a.button5:hover{
     content: "";
     clear: both;
     display: table;
+    margin-left: 10px;
+    width: 350px;
 }
 .round-button {
     display:block;
@@ -96,6 +109,11 @@ a.button5:hover{
 	margin-left: 140px;
 	margin-top: 30px;
 }
+
+#round_button{
+	margin-left: 97px;
+}
+
 .round-button:hover {
     background: #262626;
 }
@@ -124,12 +142,80 @@ a:hover {
     border: 2px solid #430F7F;
     color: white;
 	float: right;
-	margin-right: 20px;
+	margin-right: -55px;
+	margin-top:-65px;
 }
 
 .round {
     border-radius: 10px;
-	
-    
+}
 
+#p1h1wr{
+	margin-top: 30.080%;
+}
+
+#p1h3wr{
+	margin-bottom: 10px;
+}
+
+#p1div{
+	font-size:1.5em;margin-top: -10%;
+}
+
+#img1{
+    margin-left: 70px;
+}
+
+#p2h1wr{
+	margin-top: 60px;
+	width: 370.323px;
+}
+
+#p2h3wr{
+	margin-bottom: 20px;
+	margin-left: 12px;
+	width: 360px;
+}
+
+#p2_body{
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	height: 400px;
+}
+#p2_html{
+	height: 400px;
+	width: 300px;
+}
+#p3_html{
+	height: 690px;
+}
+
+#p3_body{
+	width: 355px;
+}
+
+#p3h1wr{
+	margin-top: 40px;
+	margin-left: 90px;
+}
+
+#p3h3wr{
+	margin-bottom: 20px;
+	width: 350px;
+}
+
+#img2{
+	margin-left: 57px;
+}
+
+#p3_div{
+	width: 250px;
+	margin-right: -20px;
+	margin-left: 50px;
+}
+
+.body{
+	background-color:#cccccc;
 }
